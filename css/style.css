@@ -1,3 +1,97 @@
+@charset "UTF-8";
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px
+}
+
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('/imagens/fundo-madeira.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    width: 100vh;
+    background-color: yellowgreen;
+}
+
+#flex-main{
+    height: 100vh;
+
+}
+
+#section_telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;
+    background-image: url('/imagens/frame-iphone.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+
+/*Section Redes*/
+
+#section_redes{
+    position: absolute;
+    top: 0%;
+    left: 95%;
+    transform: translate(-95%, -0%);
+
+}
+
+#section_redes ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    
+
+
+
+
+}
+
+#section_redes ul li{
+    text-align: left;
+    padding: 10px 0px;
+    
+
+}
+
+.tamanho_imagem{
+    max-width: 2em;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px black;
+    
+    
+}
+
+.tamanho_imagem:hover{
+    transition: .5s;
+    transform: scale(130%);
+    border: 1px solid white;
+
+}
+
+
+
+
+/*Fim Section redes*/
+
+
+iframe{
+    position: relative;
+    top: 72px;
+    left: 20px;
+    width: 240px;
+    height: 424px;
 }
