@@ -8,7 +8,8 @@ html, body{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('/imagens/fundo-madeira.jpg');
+    background-image: url('/imagens/fundo_principal.png');
+
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
